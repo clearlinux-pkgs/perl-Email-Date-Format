@@ -4,10 +4,10 @@
 #
 Name     : perl-Email-Date-Format
 Version  : 1.005
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-Date-Format-1.005.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-Date-Format-1.005.tar.gz
-Summary  : 'produce RFC 2822 date strings'
+Summary  : produce RFC 2822 date strings
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Email-Date-Format-license = %{version}-%{release}
@@ -22,6 +22,7 @@ produce RFC 2822 date strings
 Summary: dev components for the perl-Email-Date-Format package.
 Group: Development
 Provides: perl-Email-Date-Format-devel = %{version}-%{release}
+Requires: perl-Email-Date-Format = %{version}-%{release}
 
 %description dev
 dev components for the perl-Email-Date-Format package.

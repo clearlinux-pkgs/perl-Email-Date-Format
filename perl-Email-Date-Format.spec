@@ -4,7 +4,7 @@
 #
 Name     : perl-Email-Date-Format
 Version  : 1.005
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-Date-Format-1.005.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-Date-Format-1.005.tar.gz
 Summary  : 'produce RFC 2822 date strings'
@@ -97,4 +97,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Email/Date/Format.pm
+/usr/lib/perl5/*

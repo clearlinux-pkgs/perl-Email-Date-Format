@@ -7,7 +7,7 @@
 #
 Name     : perl-Email-Date-Format
 Version  : 1.008
-Release  : 33
+Release  : 34
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-Date-Format-1.008.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-Date-Format-1.008.tar.gz
 Summary  : 'produce RFC 2822 date strings'
